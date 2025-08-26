@@ -14,6 +14,7 @@ let isLoggedIn = false;
 // Undefined => Value not assigned
 // Symbol => Uniqueness
 // Object
+// NaN => Not a Number
 
 console.log(typeof name);
 console.log(typeof age);
