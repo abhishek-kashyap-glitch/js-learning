@@ -20,3 +20,26 @@ console.log(typeof name);
 console.log(typeof age);
 console.log(typeof null);
 console.log(typeof undefined);
+
+// ******************************* Data Types *******************************
+// Dynamically typed language (eg. const temp = 100)
+
+// Primitive (Call by value)
+// Types: String, Number, Boolean, Null, Undefined, Symbol, BigInt
+
+const id = Symbol("123");
+const anotherId = Symbol("123");
+console.log(id === anotherId);
+
+// Non-Primitve or Reference (Call by reference)
+// Types: Array, Objects, Functions
+
+const heros = ["Shaktiman", "Superman", "Batman"];
+let myObj = {
+  firstName: "Abhishek",
+  age: 25,
+};
+
+cosnt myFunction = function() {
+    console.log("Abhishek! Hello world.")
+}
