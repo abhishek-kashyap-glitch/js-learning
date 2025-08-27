@@ -40,6 +40,35 @@ let myObj = {
   age: 25,
 };
 
-cosnt myFunction = function() {
-    console.log("Abhishek! Hello world.")
-}
+const myFunction = function () {
+  console.log("Abhishek! Hello world.");
+};
+
+// ******************************* Memory *******************************
+
+// Stack (Primitive Data Types) - Copy of the Value
+let myName = "Abhishek";
+let anotherName = myName;
+console.log(myName);
+console.log(anotherName);
+
+anotherName = "Abhi";
+
+console.log(myName);
+console.log(anotherName);
+
+// Heap (Non-Primitive Data Types) - Reference type
+let userOne = {
+  name: "abc",
+  email: "abc@google.com",
+};
+
+let userTwo = userOne;
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+userTwo.email = "cba@google.com"; // Reference type
+
+console.log(userOne.email);
+console.log(userTwo.email);
