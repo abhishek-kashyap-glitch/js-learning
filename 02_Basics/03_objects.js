@@ -1,3 +1,4 @@
+// Object Literals
 const mySymb = Symbol("key1")
 
 const jsUser = {
