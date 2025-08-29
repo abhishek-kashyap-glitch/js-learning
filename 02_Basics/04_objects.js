@@ -70,3 +70,55 @@ console.log(course.courseInstructor); // Not scalable to write this everytime
 const {courseInstructor} = course
 const {courseInstructor: instructor} = course
 console.log(courseInstructor)
+console.log(instructor)
+
+// JSON Format
+{
+    "name": "Abhishek",
+    "courseName": "JS in Hindi",
+    "price": "free"
+}
+
+// Github API
+// {
+//   "login": "abhishek-kashyap-glitch",
+//   "id": 190820696,
+//   "node_id": "U_kgDOC1-xWA",
+//   "avatar_url": "https://avatars.githubusercontent.com/u/190820696?v=4",
+//   "gravatar_id": "",
+//   "url": "https://api.github.com/users/abhishek-kashyap-glitch",
+//   "html_url": "https://github.com/abhishek-kashyap-glitch",
+//   "followers_url": "https://api.github.com/users/abhishek-kashyap-glitch/followers",
+//   "following_url": "https://api.github.com/users/abhishek-kashyap-glitch/following{/other_user}",
+//   "gists_url": "https://api.github.com/users/abhishek-kashyap-glitch/gists{/gist_id}",
+//   "starred_url": "https://api.github.com/users/abhishek-kashyap-glitch/starred{/owner}{/repo}",
+//   "subscriptions_url": "https://api.github.com/users/abhishek-kashyap-glitch/subscriptions",
+//   "organizations_url": "https://api.github.com/users/abhishek-kashyap-glitch/orgs",
+//   "repos_url": "https://api.github.com/users/abhishek-kashyap-glitch/repos",
+//   "events_url": "https://api.github.com/users/abhishek-kashyap-glitch/events{/privacy}",
+//   "received_events_url": "https://api.github.com/users/abhishek-kashyap-glitch/received_events",
+//   "type": "User",
+//   "user_view_type": "public",
+//   "site_admin": false,
+//   "name": null,
+//   "company": null,
+//   "blog": "",
+//   "location": null,
+//   "email": null,
+//   "hireable": null,
+//   "bio": null,
+//   "twitter_username": null,
+//   "public_repos": 1,
+//   "public_gists": 0,
+//   "followers": 0,
+//   "following": 0,
+//   "created_at": "2024-12-06T07:52:30Z",
+//   "updated_at": "2024-12-06T07:52:32Z"
+// }
+
+// JSON API in Array
+[
+    {},
+    {},
+    {}
+]
