@@ -1,11 +1,11 @@
 // Functions
 function sayMyName(myName) {
-    console.log(`My name is ${myName}.`)
+  console.log(`My name is ${myName}.`);
 }
-sayMyName("Abhishek")
+sayMyName("Abhishek");
 
 function addTwoNumbers(num1, num2) {
-    let result = num1 + num2
-    return result
+  let result = num1 + num2;
+  return result;
 }
-console.log(addTwoNumbers(3, 5))
+console.log(addTwoNumbers(3, 5));
